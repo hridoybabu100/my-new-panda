@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+#main-nav, #catagory {
+    margin-bottom: 50px;
+}
+#nav {
+    margin-bottom: 50px;
+}
+#nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua;  */
+
+
+}
+.nav-img img {
+    width: 148px;
+}
+.menu {
+    width: 60px;
+}
+
+
+/* hero section code hare  */
+
+.hero-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.hero-contant *{
+    margin-bottom: 15px;
+}
+.hero-contant h1 {
+    font-weight: 600;
+    color: black;
+    font-size: 58px;
+}
+.hero-contant p {
+    color: #4E4E4E;
+    line-height: 26px;
+}
+.hero-contant h2 {
+    color: #FF136F;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.hero-btn {
+    padding: 8px 30px;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.hero-img img {
+    width: 400px;
+    margin-right: 20px;
+}
+
+/* fast section code hare  */
+.heading h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+.catagory-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.box-p {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 7px;
+    
+}
+.box-p h3 {
+    color: white;
+    font-size: 36px;
+}
+
+
+ /* <!-- second section code hare  -->
+          <!-- shoe  --> */
+
+    .shoe-p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+       
+    }
+    .shoe-box * {
+        margin-bottom: 10px;
+    }
+    .shoe-box {
+        width: 360px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 5px 5px 6px 5px grey;
+        overflow: hidden;   
+       
+    }
+    .shoe-box:hover img {
+        transform: scale(1.4);
+        transition: 1s;
+    }
+    .shoe-box h5 {
+        color: #1F1F1F;
+        font-size: 20px;
+    }
+    .shoe-box img {
+        max-width: 100%; 
+    }
+
+
+    /* news latter  */
+    #last {
+        margin-bottom: 60px;
+    }
+
+    #news {
+        margin-top: 100px;
+        padding: 150px;
+        background-color: #FFF2F1;
+        text-align: center;
+    }
+     #news *{
+        margin-bottom: 10px;
+     }
+     .news-p form input[type=text] {
+        width: 60%;
+        padding: 10px;
+        border: none;
+        
+     }
+     .news-p form button {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+     }
+     .news-p form {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+     }
+     #personal {
+        font-size: 12px;
+        font-weight: 700;
+        color: #FF136F;
+        text-align: center;
+       padding-bottom: 20px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive  */
+@media screen and (max-width:1200px) {
+    .shoe-p {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+@media screen and (max-width:1024px) {
+    .hero-p {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .catagory-p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .shoe-p  {
+        flex-direction: column;
+    }
+    .shoe-box {
+        width: 100%;
+    }
+    .shoe-box p {
+        margin: 0px 30px;
+    }    
+   
+    }
+@media screen and (max-width:690px) {
+    .container {
+    width: 98%;
+    margin: auto;
+    }
+    .nav-img img {
+    width: 120px;
+    }
+    .hero-contant p {
+    color: #4E4E4E;
+    line-height: 26px;
+    margin: 0px 20px;
+    }
+    .hero-img img {
+     width: 80%;
+    }
+    .hero-contant h1 {
+        font-size: 40px;
+    }
+    .catagory-p{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-p {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .heading h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+      .shoe-box img {
+        max-width: 50%; 
+    }
+     #news {
+        padding: 20px;
+     }
+     .news-p form  {
+        flex-wrap: wrap;
+     }
+      .news-p form input[type=text] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        
+     }
+        .news-p form button {
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+     }
+     
+     
+
+    }
